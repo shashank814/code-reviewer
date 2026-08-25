@@ -23,7 +23,9 @@ const App = () => {
 
   async function reviewCode() {
     try {
-      const response = await axios.post(`${API}/get-review`, { code });
+      // const response = await axios.post(`${API}/get-review`, { code });
+
+      const response = await axios.post(`${API}/ai/get-review`, { code });
 
     setReview(response.data);
     } catch (error) {
