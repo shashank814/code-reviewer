@@ -7,7 +7,7 @@ const app = express()
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://your-frontend.vercel.app"
+    "https://code-reviewer-frontend-alpha.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
