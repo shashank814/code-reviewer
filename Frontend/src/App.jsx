@@ -49,6 +49,7 @@ const App = () => {
               fontFamily: '"Fira code", "Fira Mono", monospace',
               fontSize: 12,
               border: "1px solid #ddd",
+              color: "white",
               borderRadius: "5px",
               height: "100%",
               width: "100%",
