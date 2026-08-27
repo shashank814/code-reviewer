@@ -38,6 +38,7 @@ const App = () => {
     <main>
       <div className="left">
         <div className="code">
+          <p>Paste your code here...</p>
           <Editor
             value={code}
             onValueChange={(code) => setCode(code)}

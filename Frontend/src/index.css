@@ -44,6 +44,10 @@ main .left {
     width: 100%;
 }
 
+.left .code p {
+    color: white;
+}
+
 /* Only target pre inside LEFT */
 .left pre {
     height: 100%;
