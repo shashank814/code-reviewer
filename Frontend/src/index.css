@@ -46,9 +46,10 @@ main .left {
 
 .left .code p {
     color: white;
-    padding: 1rem;
     margin: 0;
     flex-shrink: 0;
+    padding-left: 3px;
+    padding-top: 2px;
 }
 
 /* Only target pre inside LEFT */
